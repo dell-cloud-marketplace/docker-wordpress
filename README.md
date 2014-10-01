@@ -1,4 +1,4 @@
-tutum-docker-wordpress
+dell-docker-wordpress
 ======================
 
 Out-of-the-box Wordpress docker image
@@ -7,13 +7,13 @@ Out-of-the-box Wordpress docker image
 Usage
 -----
 
-To create the image `tutum/wordpress`, execute the following command on the tutum-docker-wordpress folder:
+To create the image `dell/wordpress`, execute the following command on the dell-docker-wordpress folder:
 
-	docker build -t tutum/wordpress .
+    docker build -t dell/wordpress .
 
 You can now push your new image to the registry:
 
-	docker push tutum/wordpress
+    docker push dell/wordpress
 
 
 Running your Wordpress docker image
@@ -21,11 +21,11 @@ Running your Wordpress docker image
 
 Start your image:
 
-	docker run -d -p 80:80 tutum/wordpress
+    docker run -d -p 80:80 dell/wordpress
 
 Test your deployment:
 
-	curl http://localhost/
+    curl http://localhost/
 
 You can now start configuring your Wordpress container!
 
@@ -34,4 +34,4 @@ More information
 ----------------
 
 For details on how to access the bundled MySQL Server, set specific passwords or disable .htaccess,
-please visit the [tutum/lamp repository on github](https://github.com/tutumcloud/tutum-docker-lamp)
+please visit the [dell/lamp repository on github](https://github.com/ghostshark/dell-docker-lamp)
