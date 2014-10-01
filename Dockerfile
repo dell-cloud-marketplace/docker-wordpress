@@ -15,6 +15,8 @@ ADD create_mysql_admin_user.sh /create_mysql_admin_user.sh
 ADD create_db.sh /create_db.sh
 RUN chmod +x /*.sh
 
+# Add volumes for MySQL 
+VOLUME  ["/etc/mysql", "/var/lib/mysql" ]
 
 EXPOSE 80 3306
 CMD ["/run.sh"]
