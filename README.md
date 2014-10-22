@@ -43,7 +43,7 @@ PHP        | 4.0.2      | Scripting language
 Start your image binding host port 8080 to port 80 (Apache Web Server) in your container:
 
 ```no-highlight
-docker run -d -p 80:80 dell/wordpress
+docker run -d -p 80:80 -p 443:443 dell/wordpress
 ```
 
 Test your deployment:
@@ -51,14 +51,6 @@ Test your deployment:
 ```no-highlight
 curl http://localhost
 ```
-
-<a name="advanced-example-1"></a>
-### Advanced Example 1
-
-
-<a name="advanced-example-2"></a>
-### Advanced Example 2
-
 
 <a name="administration"></a>
 ## Administration
@@ -114,7 +106,7 @@ Attribute         | Value
 ------------------|------
 Based on          | 
 Github Repository | [https://github.com/ghostshark/docker-wordpress](https://github.com/ghostshark/docker-wordpress)
-Pre-built Image   | underconstructio.com/dell/lamp  
+Pre-built Image   | [https://registry.hub.docker.com/u/dell/lamp](registry.hub.docker.com/u/dell/lamp)
 
 <a name="dockerfile-settings"></a>
 ### Dockerfile Settings
@@ -163,5 +155,4 @@ docker build -t dell/wordpress .
 
 <a name="issues"></a>
 ## Issues
-The original Tutum image did not expose the **/var/www/html** folder. This made it impossible to update the web site, without using **nsenter**. Additionally, if a volume were specified, the folder would be empty.
 
