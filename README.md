@@ -28,10 +28,10 @@ The stack comprises the following components:
 Name       | Version    | Description
 -----------|------------|------------------------------
 Ubuntu     | Trusty     | Operating system
-Wordpress  | TBD        | Content Management System
-MySQL      | TBD        | Database
-Apache     | TDB        | Web server
-PHP        | TDB        | Scripting language
+Wordpress  | 4          | Content Management System
+MySQL      | 5.5        | Database
+Apache     | 2.4.7      | Web server
+PHP        | 4.0.2      | Scripting language
 
 **If a component is an up-to-date, compatible version, as determined by the operating system package manager, at installation time, please complete the version information based on the install.**
 
