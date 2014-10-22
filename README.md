@@ -106,7 +106,7 @@ Attribute         | Value
 ------------------|------
 Based on          | 
 Github Repository | [https://github.com/ghostshark/docker-wordpress](https://github.com/ghostshark/docker-wordpress)
-Pre-built Image   | [https://registry.hub.docker.com/u/dell/lamp](registry.hub.docker.com/u/dell/lamp)
+Pre-built Image   | [https://registry.hub.docker.com/u/dell/docker-wordpress](registry.hub.docker.com/u/dell/docker-wordpress)
 
 <a name="dockerfile-settings"></a>
 ### Dockerfile Settings
