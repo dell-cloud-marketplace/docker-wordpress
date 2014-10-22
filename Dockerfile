@@ -2,7 +2,7 @@ FROM tutum/lamp:latest
 MAINTAINER Dell Cloud Market Place <Cloud_Marketplace@dell.com>
 
 # Download latest version of Wordpress into /app
-RUN rm -fr /app && git clone --depth=1 https://github.com/WordPress/WordPress.git /app
+RUN rm -fr /app && git clone -b 4.0-branch --single-branch --depth=1 https://github.com/WordPress/WordPress.git /app
 
 # Configure Wordpress to connect to local DB
 ADD wp-config.php /app/wp-config.php
