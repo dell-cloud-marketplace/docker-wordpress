@@ -23,15 +23,16 @@ This blueprint installs [Wordpress](https://wordpress.org/) an open source blogg
 
 <a name="components"></a>
 ## Components
-The stack comprises the following components:
+The stack comprises the following components (some are obtained through dell/lamp-base):
 
-Name       | Version            | Description
------------|--------------------|------------------------------
-Ubuntu     | Trusty             | Operating system
-Wordpress  | 4                  | Content Management System
-MySQL      | refer to dell/lamp | Database
-Apache     | refer to dell/lamp | Web server
-PHP        | refer to dell/lamp | Scripting language
+
+Name       | Version                 | Description
+-----------|-------------------------|------------------------------
+Ubuntu     | Trusty                  | Operating system
+Wordpress  | 4                       | Content Management System
+MySQL      | refer to dell/lamp-base | Database
+Apache     | refer to dell/lamp-base | Web server
+PHP        | refer to dell/lamp-base | Scripting language
 
 **If a component is an up-to-date, compatible version, as determined by the operating system package manager, at installation time, please complete the version information based on the install.**
 
