@@ -22,7 +22,7 @@ ADD create_db.sh /create_db.sh
 RUN chmod +x /*.sh
 
 # Add volumes for MySQL 
-VOLUME  ["/etc/mysql", "/var/lib/mysql" ]
+VOLUME ['/var/lib/mysql', '/var/www/html']
 
 EXPOSE 80 3306 443
 CMD ["/run.sh"]

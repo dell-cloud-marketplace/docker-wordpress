@@ -15,6 +15,4 @@ while [[ RET -ne 0 ]]; do
 	RET=$?
 done
 
-mysqladmin -uroot shutdown
-
 echo "=> Done!"
