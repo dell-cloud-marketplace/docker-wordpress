@@ -28,11 +28,11 @@ The stack comprises the following components (some are obtained through dell/lam
 
 Name       | Version                 | Description
 -----------|-------------------------|------------------------------
-Ubuntu     | Trusty                  | Operating system
+Ubuntu     | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base)                  | Operating system
+MySQL      | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base) | Database
+Apache     | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base) | Web server
+PHP        | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base) | Scripting language
 Wordpress  | 4                       | Content Management System
-MySQL      | refer to dell/lamp-base | Database
-Apache     | refer to dell/lamp-base | Web server
-PHP        | refer to dell/lamp-base | Scripting language
 
 **If a component is an up-to-date, compatible version, as determined by the operating system package manager, at installation time, please complete the version information based on the install.**
 
