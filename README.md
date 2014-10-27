@@ -23,7 +23,7 @@ Start the container, as follows:
 
 You will to check the container logs, in order to get the MySQL password:
 
-    docker logs dell/wordpress
+    docker logs wordpress
 
 You will see an output like the following:
 
