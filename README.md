@@ -7,11 +7,11 @@ The stack comprises the following components (some are obtained through [dell/la
 
 Name       | Version                 | Description
 -----------|-------------------------|------------------------------
+Wordpress  | 4                       | Content Management System
 Ubuntu     | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base)                  | Operating system
 MySQL      | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base) | Database
 Apache     | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base) | Web server
 PHP        | see [docker-lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base) | Scripting language
-Wordpress  | 4                       | Content Management System
 
 ## Usage
 
