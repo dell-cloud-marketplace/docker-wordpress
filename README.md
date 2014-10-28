@@ -30,7 +30,7 @@ You will see an output like the following:
     ====================================================================
     You can now connect to this MySQL Server using:
 
-      mongo admin -u admin -pca1w7dUhnIgI --host <host> --port <port>
+      mysql admin -u admin -pca1w7dUhnIgI --host <host>  -h<host> -P<port>
 
     Please remember to change the above password as soon as possible!
     MySQL user 'root' has no password but only allows local connections
