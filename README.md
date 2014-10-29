@@ -3,7 +3,7 @@
 This blueprint installs [Wordpress](https://wordpress.org/) an open source blogging and content management system.
 
 ## Components
-The stack comprises the following components (some are obtained through [dell/lamp-base](https://registry.hub.docker.com/u/dell/lamp-base)):
+The stack comprises the following components (some are obtained through [dell/lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base):
 
 Name       | Version                 | Description
 -----------|-------------------------|------------------------------
@@ -25,7 +25,7 @@ You will have to check the container logs, in order to get the MySQL password:
 
     docker logs wordpress
 
-You will see an output like the following:
+You will see some output like the following:
 
     ====================================================================
     You can now connect to this MySQL Server using:
