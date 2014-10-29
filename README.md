@@ -3,7 +3,7 @@
 This blueprint installs [Wordpress](https://wordpress.org/) an open source blogging and content management system.
 
 ## Components
-The stack comprises the following components (some are obtained through [dell/lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base):
+The stack comprises the following components (some are obtained through [dell/lamp-base](https://github.com/dell-cloud-marketplace/docker-lamp-base)):
 
 Name       | Version                 | Description
 -----------|-------------------------|------------------------------
