@@ -21,7 +21,7 @@ Start the container, as follows:
 
     sudo docker run -d -p 80:80 -p 443:443 -p 3306:3306 --name wordpress dell/wordpress
 
-You will have to check the container logs, in order to get the MySQL password:
+Next, check the container logs, in order to get the MySQL password:
 
     sudo docker logs wordpress
 
