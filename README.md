@@ -40,7 +40,7 @@ In this case, **ca1w7dUhnIgI** is the password allocated to the admin user. Make
 
     mysql -u admin -pca1w7dUhnIgI -h127.0.0.1 -P3306
 
-## Complete the installation
+## Complete the Installation
 
 Open a web browser and navigate to either the public DNS or IP address of your instance. For example, if the IP address is 54.75.168.125, do:
 
