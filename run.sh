@@ -14,4 +14,17 @@ else
     echo "=> Using an existing volume of MySQL"
 fi
 
+APPLICATION_HOME="/var/www/html"
+
+# If the application directory is empty, copy the site.
+if [ ! "$(ls -A $APPLICATION_HOME)" ]; then
+    echo "=> Copying the site"
+
+    # Copy the application folder.
+    cp -r /app/. $APPLICATION_HOME
+
+    # Configure ownership to allow plugin upload.
+    chown -R www-data:www-data $APPLICATION_HOME/wp-content
+fi
+
 exec supervisord -n
