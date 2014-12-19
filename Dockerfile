@@ -9,6 +9,12 @@ RUN rm -fr /app && git clone -b 4.0-branch --single-branch --depth=1 \
 # Configure Wordpress to connect to local DB
 ADD wp-config.php /app/wp-config.php
 
+# Add htaccess
+ADD .htaccess /app/.htaccess
+
+# Override Apache configuration
+ADD apache_default /etc/apache2/sites-available/000-default.conf
+
 # Add scripts and make them executable.
 ADD create_mysql_admin_user.sh /create_mysql_admin_user.sh
 ADD create_db.sh /create_db.sh
