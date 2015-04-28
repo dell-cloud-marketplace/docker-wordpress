@@ -24,7 +24,7 @@ Start your container with:
  - Ports 80, 443 (Apache Web Server) and 3306 (MySQL) exposed
  - A named container (**wordpress**)
 
- As follows:
+As follows:
 
 ```no-highlight
 sudo docker run -d -p 80:80 -p 443:443 -p 3306:3306 --name wordpress dell/wordpress
