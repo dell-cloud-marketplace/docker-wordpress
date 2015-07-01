@@ -108,6 +108,12 @@ If you need assistance in using WordPress, there is huge amount of learning mate
 
 ## Reference
 
+### Environmental Variables
+
+Variable   | Default  | Description
+-----------|----------|---------------------------------
+MYSQL_PASS | *random* |Password for MySQL user **admin**
+
 ### Image Details
 
 Based on  [tutum/wordpress](https://github.com/tutumcloud/tutum-docker-wordpress)
